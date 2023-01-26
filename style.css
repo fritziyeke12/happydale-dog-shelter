@@ -14,11 +14,13 @@ body {
 }
 
 header {
-  /* your code */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 main {
-  /* your code */
+  display: flex;
 }
 main nav {
   border: .1rem solid purple;
