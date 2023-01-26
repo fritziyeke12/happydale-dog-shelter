@@ -25,7 +25,8 @@ main {
 main nav {
   border: .1rem solid purple;
   padding: 1rem;
-  /* your code */
+  display: flex;
+  flex-direction: column;
 }
 main a {
   width: 5rem;
@@ -35,7 +36,9 @@ main a {
 }
 
 .dog-list-container {
-  /* your code */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .fluid-text {
